@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body{
+        background-image: url(./fundofruta.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    section {
+    box-shadow: 0px -3px 4px 5px rgb(0 0 0 / 20%);
+   
+    width: 80vw;
+    height: 100vh;
+    display: flex;
+    margin: auto;
+   
+    margin-top: 2em;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+        section h1{
+            color: #2e733a;
+            width: 100%;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            font-family: system-ui;
+        
+        }
+    .div1 {
+    position: absolute;
+    /* margin-top: -221px; */
+    top: 6em;
+    width: 100%;
+    text-align: center;
+    flex-wrap: wrap;
+    left: 0em;
+}
+      
+        .select1{
+            width: 70% ;
+            height: 3em;
+            border-radius: 1px;
+            font-size: 16px;
+            border-radius: 5px;
+            background-color: #2e733a86;
+            color: #fff;
+        }.artigo {
+            text-align: left;
+            margin-top: 1em;
+            position: absolute;
+            top: 8em;
+            left: 4em;
+        }
+        .artigo2{
+    position: absolute;
+    text-align: left;
+    top: 9em;
+    left: 12em;
+}
+label{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+        .artigo3{
+            text-align: left;
+            margin-top: 1em;
+            position: absolute;
+            top: 19em;
+            left: 4em;
+        }
+
+        .input1 {
+        width: 29px;
+        height: 19px;
+        }
+        h3{
+    position: absolute;
+    top:  14em;;
+    left: 4.8em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.btn {
+    background-color: rgb(118, 213, 108);
+    color: #fff;
+    font-weight: 700;
+    border: none;
+
+    justify-content: center;
+    /* margin: 0 auto; */
+    /* position: absolute; */
+    top: 391%;
+    /* left: 8em; */
+    width: 130px;
+    height: 3.5em;
+    /* display: flex; */
+    width: 60%;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 90%;
+    border-radius: 5px;
+    font-size: 17px;
+}
+h2{
+    margin-top: 2em;
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+    </style>
+    <script defer >
+
+    </script>
+</head>
+<body>
+    
+    <Section>
+        <h1>Monte sua Salada de frutas</h1>
+        <div class="div1">
+            <h2>Selecione o tamanho</h2>
+        <select class="select1" name="" id="">
+            <option value="">Pequena</option>
+            <option value="">Media</option>
+            <option value="">Grande</option>
+            <option value="">Gigante</option>
+        </select>
+        <article class="artigo" >
+            <input class="input1" type="checkbox" name="banana" id="banana"> <label for="banana"> Banana</label> <br>
+            <input class="input1" type="checkbox" name="maca" id="maca"> <label for="maca"> Maçã</label><br>
+            <input class="input1" type="checkbox" name="Morango" id="Morango"> <label for="Morango"> Morango</label><br>
+            <input class="input1" type="checkbox" name="Mamao" id="Mamao"> <label for="Mamao"> Mamão</label><br>
+           
+        </article >
+        <article class="artigo2">
+            <input class="input1" type="checkbox" name="pera" id="pera"> <label for="pera"> Pera</label><br>
+            <input class="input1" type="checkbox" name="kiwi" id="kiwi"> <label for="kiwi"> Kiwi</label><br>
+            <input class="input1" type="checkbox" name="Laranja" id="Laranja"> <label for="Laranja"> Laranja</label><br>
+            <input class="input1" type="checkbox" name="Pessego" id="Pessego"> <label for="Pessego"> Pessego</label><br>
+        </article>
+
+            <h3> Opcionais</h3>
+            <article class="artigo3">
+                <input class="input1" type="checkbox" name="Leite Condensado" id="Leite Condensado"> <label for="Leite Condensado"> Leite Condensado</label><br>
+                <input class="input1" type="checkbox" name="Leite em po" id="Leite em po"> <label for="Leite em po"> Leite em po</label><br>
+                <input class="input1" type="checkbox" name="Granola" id="Granola"> <label for="Granola"> Granola</label><br>
+                <input class="input1" type="checkbox" name="Castanha do para" id="Castanha do para"> <label for="Castanha do para"> Castanha do para</label><br>
+            </article>
+
+
+            <Button class="btn">Solicitar Pedido</Button>
+        </div>
+    </Section>
+</body>
+</html>
